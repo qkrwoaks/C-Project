@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\user\source\repos\TeamProject2\TeamProject2\</FILEPATH>
+      <FILENAME>Game.c</FILENAME>
+      <LINE>41</LINE>
+      <COLUMN>346</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>초기화되지 않은 메모리 'CurInfo'을(를) 사용하고 있습니다.</DESCRIPTION>
+    <FUNCTION>setcursortype</FUNCTION>
+    <DECORATED>setcursortype</DECORATED>
+    <FUNCLINE>41</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\user\source\repos\TeamProject2\TeamProject2\</FILEPATH>
+        <FILENAME>Game.c</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>56</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>선언</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'CurInfo'이(가) 초기화되지 않았습니다.</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\user\source\repos\TeamProject2\TeamProject2\</FILEPATH>
+        <FILENAME>Game.c</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>73</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>분기</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>switch( 'c' )가 default case로 확인된다고 가정합니다.</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\user\source\repos\TeamProject2\TeamProject2\</FILEPATH>
+        <FILENAME>Game.c</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>312</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>사용법</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'CurInfo'은(는) 'SetConsoleCursorInfo'(c:\program files (x86)\windows kits\10\include\10.0.18362.0\um\consoleapi2.h:163에서 선언됨)에 대한 입력입니다.</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\user\source\repos\TeamProject2\TeamProject2\</FILEPATH>
+        <FILENAME>Game.c</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>346</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>사용법</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'CurInfo'이(가) 사용되는데 초기화되지 않았을 수 있습니다.</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT></DEFECTS>
